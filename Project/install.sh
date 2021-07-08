@@ -2,8 +2,8 @@
 
 # 判断go环境是否存在
 
-if $GOPATH -ne "";then
- echo "go env is not exist" && goto end
+if [ ! -d $GOPATH ];then
+ echo "go env is not exist"
 fi
 
 # 判断资源文件，不影响编译
@@ -24,7 +24,7 @@ go mod tidy
 
 # 开始编译
 
-if [ ! -f "./main.go" ];then
+if [ -f "./main.go" ];then
   go build -o run
 fi
 
