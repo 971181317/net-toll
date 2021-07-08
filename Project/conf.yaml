@@ -1,0 +1,15 @@
+# wifi
+#DeviceName: \Device\NPF_{E01139AE-3D36-44EB-8F8A-712BBB555F29}
+# 以太网
+DeviceName: \Device\NPF_{B275C137-2F67-4C36-A2FF-21047C0BBB28}
+# 捕获一个数据包的多少个节
+SnapshotLen: 1024
+# 设置网卡是否工作在混杂模式
+Promiscuous: false
+#Filter: "tcp"
+OfflineFilePath: offline_data/1625621786/pocket data.pcap
+LinkType: 1
+# 抓包数量
+PacketCount: 100
+# 抓包间隔，-1为持续
+TimeoutSecond: -1
