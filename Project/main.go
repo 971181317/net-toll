@@ -12,8 +12,7 @@ import (
 	"time"
 )
 
-var
-(
+var (
 	confCtx = ConfigCtx{}
 	err     error
 )

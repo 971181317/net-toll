@@ -21,7 +21,7 @@ if exist ./run.exe (goto success) else (goto false)
 
 :success
     echo Compilation is complete
-    echo Please use the run.exe file in the directory to run
+    echo Please use the 'run.exe' file in the directory to run
     goto end
 
 :false

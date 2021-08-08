@@ -32,6 +32,6 @@ if [ ! -f "./run" ];then
   echo "Compilation Error"
 else
   echo "Compilation is complete"
-  echo "Please use the run.exe file in the directory to run"
+  echo "Please use the 'run' file in the directory to run"
 fi
 echo "install program exit"
